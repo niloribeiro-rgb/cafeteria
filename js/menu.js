@@ -21,6 +21,7 @@ function renderizarProdutos(lista) {
   }
 }
 
+todosProcurar()
 function todosProcurar() {
   estante.innerHTML = ""
   renderizarProdutos(produtosMelhores)
