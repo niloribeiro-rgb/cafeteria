@@ -1,0 +1,174 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #f1f1f1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    font-size: 17px;
+    display: inline-block;
+    line-height: 100px;
+    text-decoration: none;
+    color: #8b8b8b;
+
+}
+
+nav a:hover {
+    color: brown;
+
+}
+
+.botao {
+    width: 100px;
+}
+
+.botao button {
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+/* main */
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.formPosition{
+    display: flex;
+   justify-content: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    gap: 10px;
+}
+
+.formContainer input {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 170px;
+}
+
+.formContainer textarea {
+    max-width: 170px;
+    max-height: 100px;
+    min-width: 170px;
+    min-height: 100px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.botaoForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botaoForm button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.botaoForm button:active{
+    background-color: rgb(120, 120, 120);
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.rateContainer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.cardRate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30dvh;
+    background-color: #2f2f2f;
+    gap: 15px;
+}
+
+footer p {
+    color: white;
+}
+
+.linkFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.linkFooter a {
+    text-decoration: none;
+    color: white;
+}

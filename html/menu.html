@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <script src="../js/menu.js" defer></script>
     <title>Menu</title>
 </head>
 
@@ -30,22 +31,17 @@
         <div class="titulo">
             <h1>Menu</h1>
         </div>
-        <div class="cardsContainer">
-            <div class="card">
-                <img src="" alt="" class="imgProduto">
-                <h2 class="nomeProdto">Cafe 3 Corações</h2>
-                <p class="precoProduto">1000</p>
-            </div>
-            <div class="card">
-                <img src="img/cofe3coracoes.png" alt="">
-                <h2>Cafe 3 Corações</h2>
-                <p>preco</p>
-            </div>
-            <div class="card">
-                <img src="img/cofe3coracoes.png" alt="">
-                <h2>Cafe 3 Corações</h2>
-                <p>preco</p>
 
+         <div class="buttonProcurar">
+            <button onclick="todosProcurar()">TODOS</button>
+             <button onclick="melhoresProcurar()">MELHORES</button>
+              <button onclick="outrosProcurar()">OUTROS</button>
+        </div>
+        
+        <div class="estanteContainer" id="estanteContainer"></div>
+
+        <div class="cardsContainer">
+          
             </div>
     </main>
     <footer>
